@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <title>Portifolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9a227aac38.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#portifolio">Portifolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Nithya</span></h1>
+                <h1>I'm a <span>Frontend Developer</span></h1>
+                <p class="intro"><i>"This is my official portfolio website showcasing comprehensive details and <br> wealth of experience in web development</i>"</p>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://thumbs.dreamstime.com/z/smiling-girl-student-textbooks-portfolio-13596533.jpg?w=576">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Myself Nithya Prasanna from Ongole ,Currently Pursuing Btech final year in the stream of Computer Science and engineeringin RGUKT IIIT Ongole.Along with my degree i have completed web development course and sql course on udemy.I have done internships in the domain of web development at Code clause,Oasis infobyte and code soft.Iam honest,self-motivated & hardworking person with positive attitude towards my career and life.i have worked in various projects in the domain of web development.I have thorough knowledge working with PHP,MYSQL,HTML,CSS,React and JS.Lastly Iam quick learner and believe in learning from my past mistakes and experiences.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span>-100%</li>
+                            <li><span>CSS</span>-90%</li>
+                            <li><span>Javascript</span>-80%</li>
+                            <li><span>React Js</span>-70%</li>
+                            <li><span>PHP</span>-60%</li>
+                            <li><span>Python</span>-80%</li>
+                            <li><span>SQL</span>-80%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br>Worked as a intern at CodeClause</li>
+                            <li><span>Web development</span><br>Worked as a intern at Oasis Infobyte</li>
+                            <li><span>Web Development</span><br>Worked as a intern at CodeSoft</li>
+                            <li><span>Data Science</span><br>Worked as a intern at Oasis Infobyte</li>
+                            <li><span>Data Science and Machine Learning</span><br>Worked as a intern at YBI Foundation</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2018</span><br>10th standard</li>
+                            <li><span>2018-2020</span><br>PUC(Intermediate)</li>
+                            <li><span>2020-2024</span><br>Bachelor of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Portifolio-->
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="outpass.png">
+                    <div class="layer">
+                        <h3>Online Outpass management system</h3>
+                        <p>This project is a leave/outing pass designed for issuing and maintaining the outpass for students departing outside the campus assuring that they have departed with intimation to their wardens.
+                        <br>Technologies used:HTML,CSS,JS,MYSQL,PHP </p>
+                        <a href="https://github.com/NithyaPrasanna/outpass-system"><i class ="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="compiler.jpg">
+                    <div class="layer">
+                        <h3>Online compiler</h3>
+                        <p>This project main aim is to describe a centralised compiler which avoid the installation of each computer to compile,run,testand debug the code. 
+                        <br>Technologies used:HTML,CSS,JS,MYSQL,PHP></p>
+                        <a href="https://github.com/NithyaPrasanna/compilers"><i class ="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images.jpg">
+                    <div class="layer">
+                        <h3>Wedding Venu and services</h3>
+                        <p>Our wedding services website shows the near wedding halls and their availability for the date of booking
+                            <br>Technolgies used:HTML,CSS,JS,MYSQL,PHP </p>
+                        <a href="https://github.com/NithyaPrasanna/weddding-venue"><i class ="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>ppattinithyaprasanna@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9182477604</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="c:\Users\rgukt\Desktop\Nithya-Prasanna-Patti-FlowCV-Resume-20240107.pdf" download class="btn btn2">Downoad CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwefJld_UHEVte82BpL6ZUimfEThVjCaP2AtDylIWKElyIM8p1GxJvT8dsZrb04zhJ9WA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
